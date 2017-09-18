@@ -7,6 +7,28 @@
     <script src="Scripts/angular.min.js"></script>
 </head>
 <body ng-app>
-    <h1>Hello</h1>
+    <table>
+        <thead>
+            <tr>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Code</td>
+                <td>Available</td>
+                <td>Price</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="product in products">
+                <td>
+                    <img src="{{product.imageUrl}}",
+                         title="{{product.productName}}"/>
+                </td>
+                <td>{{product.productName}}</td>
+                <td>{{product.productCode}}</td>
+                <td>{{product.releaseDate}}</td>
+                <td>{{product.price}}</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
