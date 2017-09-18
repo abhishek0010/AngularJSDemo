@@ -19,13 +19,15 @@
              style ="font-size:large">
             Product List
         </div>
-    </div>
     <div class="panel-body">
-    <table ng-controller="ProductListCtrl as vm">
+    <table class="table" 
+           ng-controller="ProductListCtrl as vm">
         <thead>
             <tr>
                 <td>
-                    <button type="button" ng-click="vm.toggleImage()">
+                    <button type="button" 
+                            class="btn btn-primary"
+                            ng-click="vm.toggleImage()">
                     {{vm.showImage ? "Hide " : "Show "}}Image
                     </button>
                 </td>
@@ -50,6 +52,7 @@
             </tr>
         </tbody>
     </table>
+        </div>
     </div>
 </body>
 </html>
