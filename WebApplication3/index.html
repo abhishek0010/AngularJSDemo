@@ -11,7 +11,7 @@
     <script src="app/products/productListCtrl.js"></script>
 </head>
 <body ng-app="productManagement">
-    <table ng-init=''>
+    <table ng-controller="ProductListCtrl as vm">
         <thead>
             <tr>
                 <td>Image</td>
@@ -22,7 +22,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr ng-repeat="product in products">
+            <tr ng-repeat="product in vm.products">
                 <td>
                     <img ng-src="{{product.imageUrl}}"
                          style="width:50px;margin:2px"

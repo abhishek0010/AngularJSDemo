@@ -2,7 +2,7 @@
     "use strict";
     angular
         .module("productManagement")
-        .controller("productListCtrl",
+        .controller("ProductListCtrl",
                         ProductListCtrl);
     function ProductListCtrl() {
         var vm = this; //When "controller as" syntax is used the model is defined in this variable. 
@@ -32,4 +32,4 @@
                 "imageUrl": "http://openclipart.org/image/300px/svg_to_png/73/rejon_Hammer.png"
             }]
     };
-});
+}());
