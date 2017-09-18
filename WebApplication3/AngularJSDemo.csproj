@@ -76,6 +76,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\app.js" />
     <Content Include="index.html" />
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\angular.js" />
@@ -86,7 +87,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="app\" />
     <Folder Include="common\" />
     <Folder Include="css\" />
     <Folder Include="fonts\" />
