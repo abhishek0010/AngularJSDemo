@@ -78,6 +78,8 @@
   <ItemGroup>
     <Content Include="app\app.js" />
     <Content Include="app\products\productListCtrl.js" />
+    <Content Include="css\app.css" />
+    <Content Include="css\bootstrap.css" />
     <Content Include="index.html" />
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\angular.js" />
@@ -89,7 +91,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="common\" />
-    <Folder Include="css\" />
     <Folder Include="fonts\" />
     <Folder Include="images\" />
   </ItemGroup>

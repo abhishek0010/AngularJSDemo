@@ -3,6 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <title>Sample Busines Application</title>
+    <!--Style Sheets-->
+    <script src="css/bootstrap.css"></script>
+    <script src="css/app.css"></script>
     <!--Library Scripts-->
     <script src="Scripts/angular.min.js"></script>
     <!--Application Scripts-->
@@ -11,6 +14,13 @@
     <script src="app/products/productListCtrl.js"></script>
 </head>
 <body ng-app="productManagement">
+    <div class="panel panel-primary">
+        <div class ="panel-heading"
+             style ="font-size:large">
+            Product List
+        </div>
+    </div>
+    <div class="panel-body">
     <table ng-controller="ProductListCtrl as vm">
         <thead>
             <tr>
@@ -40,5 +50,6 @@
             </tr>
         </tbody>
     </table>
+    </div>
 </body>
 </html>
