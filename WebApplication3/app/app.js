@@ -26,9 +26,16 @@
                         .state("productEdit", {
                             url: "/products/edit/:productId",
                             templateUrl: "app/products/productEditView.html",
-                            controller: "ProductEditCtrl as vm"
+                            controller: "ProductEditCtrl as vm",
+                            resolve: {
+                                productResource: "productResource",
+                                product: function (productResource, $stateParams) {
+                                    var productId = $stateParams.productId;
+                                    return productResource.get({ productId: productId }).$promise;
+                                }
+                            }
                         })
-
+                        //resolve declered in parent state can also be used in the nested states
                         .state("productEdit.info", {
                             url: "/price",
                             templateUrl: "app/products/productEditInfoView.html"
