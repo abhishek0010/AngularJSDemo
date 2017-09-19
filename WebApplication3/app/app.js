@@ -29,6 +29,21 @@
                             controller: "ProductEditCtrl as vm"
                         })
 
+                        .state("productEdit.info", {
+                            url: "/price",
+                            templateUrl: "app/products/productEditInfoView.html"
+                        })
+                        //Sub state (nested states) are created
+                        .state("productEdit.price", {
+                            url: "/price",
+                            templateUrl: "app/products/productEditPriceView.html"
+                        })
+
+                        .state("productEdit.tags", {
+                            url: "/price",
+                            templateUrl: "app/products/productEditTagsView.html"
+                        })
+
                         .state("productDetails", {
                             url: "/products/:productId",
                             templateUrl: "app/products/productDetailsView.html",
