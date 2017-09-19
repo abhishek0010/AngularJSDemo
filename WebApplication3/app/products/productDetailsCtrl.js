@@ -3,8 +3,9 @@
     angular
         .module("productManagement")
         .controller("ProductDetailsCtrl",
-            ProductDetailsCtrl)
-    function ProductDetails() {
+                     ProductDetailsCtrl);
+
+    function ProductDetailsCtrl() {
         var vm = this;
 
         vm.product = {

@@ -66,6 +66,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <None Include="packages.config" />
     <Content Include="app\products\productDetailsCtrl.js" />
     <Content Include="app\products\productDetailsView.html" />
@@ -74,6 +77,7 @@
     <Content Include="common\services\common.services.js" />
     <Content Include="common\services\productResource.js" />
     <Content Include="common\services\productResourceMock.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Scripts\angular-resource.js" />
     <Content Include="Scripts\angular-ui-router.js" />
     <Content Include="Scripts\angular.min.js.map" />
@@ -101,7 +105,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="fonts\" />
     <Folder Include="images\" />
   </ItemGroup>
   <PropertyGroup>
