@@ -69,6 +69,7 @@
     <None Include="packages.config" />
     <Content Include="common\services\common.services.js" />
     <Content Include="common\services\productResource.js" />
+    <Content Include="common\services\productResourceMock.js" />
     <Content Include="Scripts\angular-resource.js" />
     <Content Include="Scripts\angular.min.js.map" />
     <None Include="Web.Debug.config">

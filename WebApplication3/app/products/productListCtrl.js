@@ -4,7 +4,7 @@
         .module("productManagement")
         .controller("ProductListCtrl",
                     ["productResource",
-                    ProductListCtrl);
+                    ProductListCtrl]);
 
     function ProductListCtrl(productResource) {
         var vm = this; //When "controller as" syntax is used the model is defined in this variable. 
