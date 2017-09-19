@@ -67,6 +67,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="common\services\common.services.js" />
+    <Content Include="common\services\productResource.js" />
+    <Content Include="Scripts\angular-resource.js" />
     <Content Include="Scripts\angular.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -90,7 +93,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="common\" />
     <Folder Include="fonts\" />
     <Folder Include="images\" />
   </ItemGroup>
