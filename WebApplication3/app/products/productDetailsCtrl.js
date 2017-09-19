@@ -23,7 +23,7 @@
 
         vm.title = "Product Details : " + vm.product.productName;
         if (vm.product.tags) {
-            vm.product.tags = vm.product.tags.toString();
+            vm.product.tagList = vm.product.tags.toString();
         }
 
 
