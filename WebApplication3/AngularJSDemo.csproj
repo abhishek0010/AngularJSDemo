@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="app\products\productListView.html" />
     <Content Include="common\services\common.services.js" />
     <Content Include="common\services\productResource.js" />
     <Content Include="common\services\productResourceMock.js" />
