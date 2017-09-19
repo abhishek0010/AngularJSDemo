@@ -32,7 +32,14 @@
                         .state("productDetails", {
                             url: "/products/:productId",
                             templateUrl: "app/products/productDetailsView.html",
-                            controller: "ProductDetailsCtrl as vm"
+                            controller: "ProductDetailsCtrl as vm",
+                            resolve: {
+                                productResource: "productResource",
+                                product: function (productResource, $stateParams) {
+                                    var productId = $stateParams.productId;
+                                    return productResource.get({ productId: productId }).$promise;
+                                }
+                            }//resolve is added here to preload the required content then render the view
                         })
             
         }]
