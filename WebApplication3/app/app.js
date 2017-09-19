@@ -30,7 +30,7 @@
                         })
 
                         .state("productDetails", {
-                            url: "/products/details/:productId",
+                            url: "/products/:productId",
                             templateUrl: "app/products/productDetailsView.html",
                             controller: "ProductDetailsCtrl as vm"
                         })
