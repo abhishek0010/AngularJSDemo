@@ -72,6 +72,7 @@
     <Content Include="common\services\productResource.js" />
     <Content Include="common\services\productResourceMock.js" />
     <Content Include="Scripts\angular-resource.js" />
+    <Content Include="Scripts\angular-ui-router.js" />
     <Content Include="Scripts\angular.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
