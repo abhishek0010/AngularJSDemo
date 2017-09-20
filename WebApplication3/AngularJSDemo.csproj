@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\products\productEditCtrl.js" />
     <Content Include="app\products\productEditIndoView.html" />
     <Content Include="app\products\productEditPriceView.html" />
     <Content Include="app\products\productEditTagsView.html" />
