@@ -1,7 +1,9 @@
 ﻿(function () {
+    "use strict";
+
     angular
         .module("productManagement")
-        .controller("ProductEditCtrl"[
+        .controller("ProductEditCtrl",[
                     "product",
                     ProductEditCtrl]);
 
