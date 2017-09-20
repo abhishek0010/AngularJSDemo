@@ -69,6 +69,7 @@
     <Content Include="app\products\productEditIndoView.html" />
     <Content Include="app\products\productEditPriceView.html" />
     <Content Include="app\products\productEditTagsView.html" />
+    <Content Include="app\products\productEditView.html" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
