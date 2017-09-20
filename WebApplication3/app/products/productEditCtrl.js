@@ -2,10 +2,19 @@
     angular
         .module("productManagement")
         .controller("ProductEditCtrl"[
-                    ProductEdit]);
+                    "product",
+                    ProductEditCtrl]);
 
-    function ProductEdit() {
+    function ProductEdit(product) {
+        var vm = this;
+        vm.product = product;
 
+        if (vm.product && vm.product.productId) {
+            vm.title = vm.product.productName;
+        }
+        else {
+            vm.title = "New Product";
+        }
     }
 
 }());
