@@ -5,7 +5,7 @@
                     "product",
                     ProductEditCtrl]);
 
-    function ProductEdit(product) {
+    function ProductEditCtrl(product) {
         var vm = this;
         vm.product = product;
 
